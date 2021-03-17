@@ -1,0 +1,11 @@
+Dockerfile
+
+# Ignore .git folder
+.git
+
+node_modules/
+tmp/pids/
+
+
+# Ignore devspace.yaml file to prevent image rebuilding after config changes
+devspace.yaml
